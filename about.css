@@ -115,8 +115,8 @@ main a:hover{
         }
 
         div{
-                margin: 2rem;
-                padding: 0rem;
+                margin: 4rem;
+                padding: 2rem;
                 background-color: whitesmoke;
                 border-radius: 6px;
         }
@@ -171,8 +171,8 @@ main a:hover{
         }
 
         div{
-                margin: 2rem;
-                padding: 0rem;
+                margin: 2rem ;
+                padding: 2rem;
                 background-color: whitesmoke;
                 border-radius: 6px;
         }
