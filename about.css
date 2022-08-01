@@ -6,29 +6,29 @@ h2{
 }
 
 p{
-        color: rgb(74, 74, 74);
+        color: #4A5C85;
         font-size: 1.75rem;
         text-align: center;
 }
 div{
-        margin: 8rem;
-        padding: 2rem 5rem;
+        margin: 2rem;
+        padding: 1rem 3rem;
         background-color: whitesmoke;
         border-radius: 6px;
+        box-shadow: 2px 4px 8px #333333c9;;
 }
 
 main a{
-        font-size: 24px;
-        padding: 4px 12px;
-        text-decoration: none;
-        border: 2px solid rgb(207, 207, 245);
+        /* padding: 2px 6px; */
+        text-decoration: underline;
+        /* border: 2px solid rgb(207, 207, 245); */
         border-radius: 6px; 
-        color: black;
+        color: #507bdd;
 }
 
-main a:hover{
-        color: black;
-        background-color: rgb(207, 207, 245);
+main a:hover, main a:active{
+        color: #1e5dee;
+        /* background-color: rgb(207, 207, 245); */
 }
 
 
@@ -42,7 +42,7 @@ main a:hover{
         }
 
         p{
-                color: rgb(74, 74, 74);
+                color: #4A5C85;
                 font-size: 1rem;
                 text-align: center;
         }
@@ -54,11 +54,11 @@ main a:hover{
         }
 
         main a{
-                padding: 3px 8px;
-                text-decoration: none;
-                border: 2px solid rgb(207, 207, 245);
+                /* padding: 2px 6px; */
+                text-decoration: underline;
+                /* border: 2px solid rgb(207, 207, 245); */
                 border-radius: 6px; 
-                color: black;
+                color: #507bdd;
         }
 
 }
@@ -72,7 +72,7 @@ main a:hover{
         }
 
         p{
-                color: rgb(74, 74, 74);
+                color: #4A5C85;
                 font-size: 0.75rem;
                 text-align: center;
         }
@@ -84,11 +84,11 @@ main a:hover{
         }
 
         main a{
-                padding: 4px 8px;
-                text-decoration: none;
-                border: 2px solid rgb(207, 207, 245);
+                /* padding: 2px 6px; */
+                text-decoration: underline;
+                /* border: 2px solid rgb(207, 207, 245); */
                 border-radius: 6px; 
-                color: black;
+                color: #507bdd;
         }
 
         /* main ul img{
@@ -122,17 +122,17 @@ main a:hover{
         }
 
         p{
-                color: rgb(74, 74, 74);
+                color: #4A5C85;
                 font-size: 0.5rem;
                 text-align: center;
         }
 
         main a{
-                padding: 2px 6px;
-                text-decoration: none;
-                border: 2px solid rgb(207, 207, 245);
+                /* padding: 2px 6px; */
+                text-decoration: underline;
+                /* border: 2px solid rgb(207, 207, 245); */
                 border-radius: 6px; 
-                color: #4A5C85;
+                color: #507bdd;
         }
 
 }
@@ -179,16 +179,16 @@ main a:hover{
 
         p{
                 color: #4A5C85;
-                font-size: 0.33rem;
+                font-size: 0.23rem;
                 text-align: center;
         }
 
         main a{
-                padding: 2px 4px;
-                text-decoration: none;
-                border: 2px solid rgb(207, 207, 245);
+                /* padding: 2px 6px; */
+                text-decoration: underline;
+                /* border: 2px solid rgb(207, 207, 245); */
                 border-radius: 6px; 
-                color: black;
+                color: #507bdd;
         }
 
 
