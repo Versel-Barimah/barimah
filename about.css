@@ -114,16 +114,17 @@ main a:hover{
                 color: whitesmoke;
         }
 
+        div{
+                margin: 2rem;
+                padding: 0rem;
+                background-color: whitesmoke;
+                border-radius: 6px;
+        }
+
         p{
                 color: rgb(74, 74, 74);
                 font-size: 0.5rem;
                 text-align: center;
-        }
-        div{
-                margin: 5rem;
-                padding: 0.5rem 3rem;
-                background-color: whitesmoke;
-                border-radius: 6px;
         }
 
         main a{
@@ -131,7 +132,7 @@ main a:hover{
                 text-decoration: none;
                 border: 2px solid rgb(207, 207, 245);
                 border-radius: 6px; 
-                color: black;
+                color: #4A5C85;
         }
 
 }
@@ -169,16 +170,17 @@ main a:hover{
                 color: whitesmoke;
         }
 
-        p{
-                color: rgb(74, 74, 74);
-                font-size: 0.33rem;
-                text-align: center;
-        }
         div{
                 margin: 2rem;
-                padding: 0.5rem;
+                padding: 0rem;
                 background-color: whitesmoke;
                 border-radius: 6px;
+        }
+
+        p{
+                color: #4A5C85;
+                font-size: 0.33rem;
+                text-align: center;
         }
 
         main a{
