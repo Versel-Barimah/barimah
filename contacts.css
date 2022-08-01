@@ -1,0 +1,242 @@
+main{
+        margin: 8rem;   
+}
+
+
+main div h1{
+        font-size: 3.125rem;
+        text-align: center;
+        color: whitesmoke;
+}
+
+form{
+        width: 30rem;
+        margin: 3rem auto;
+        background-color: whitesmoke;
+        padding: 1rem;
+        border-radius: 8px;
+}
+
+label{
+        margin-bottom: .5rem;
+        display: block;
+        font-size: 2rem;
+        color: #282bf1;
+}
+
+input, textarea{
+        width: 100%;
+        display: block;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        font: inherit;
+        border: 1px solid rgb(102, 87, 240);
+        padding: 0.25rem;
+        color: #5e6468;
+        height: 3.125rem;
+        border-radius: 8px;
+        font-size: 1.82rem;
+}
+
+textarea{
+        height: 10rem;
+}
+
+input:focus, textarea:focus{
+        background-color: rgb(233, 232, 245);
+        /* color: rgb(31, 53, 218); */
+        border: 1px solid #4A5C85;
+
+}
+
+button{
+        display: block;
+        font: inherit;
+        background-color:#4A5C85;
+        color: whitesmoke;
+        border: 1px solid rgb(17, 0, 255);
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
+        border-radius: 12px;
+        cursor: pointer;
+        margin: auto;
+}
+
+button:hover{
+        color: #ffffffd5;
+}
+
+.form-control-inline{
+        display: flex;
+}
+
+.form-control-inline input{
+        width: auto;
+        margin-right: .5rem;
+}
+
+
+
+@media(max-width: 750px){
+        main div h1{
+                font-size: 3rem;
+        }
+        main{
+                margin: 6rem;   
+        }
+        form{
+                width: auto;
+                margin: 3rem auto;
+                background-color: whitesmoke;
+                padding: 1rem;
+                border-radius: 8px;
+        }
+
+        label{
+                margin-bottom: .5rem;
+                display: block;
+                font-size: 2rem;
+                /* color: #282bf1; */
+        }
+
+        input, textarea{
+                /* width: 100%; */
+                /* display: block; */
+                /* margin-bottom: 1rem; */
+                /* box-sizing: border-box; */
+                /* font: inherit; */
+                /* border: 1px solid rgb(102, 87, 240); */
+                /* padding: 0.25rem; */
+                /* color: #5e6468; */
+                height: 3rem;
+                /* border-radius: 8px; */
+                font-size: 1.5rem;
+        }
+
+        textarea{
+                height: 8rem;
+        }
+        header ul li{
+                display: none;
+        }
+        .menu-btn{
+                display: flex;
+        }
+}
+
+@media(max-width: 710px){
+        /* main ul img{
+                width: 12rem;
+                height: 12rem;
+                object-fit: cover;
+        } */
+
+        /* .actions a{
+                font-size: 0.85rem;
+        } */
+
+        /* main h2{
+                font-size:1rem;
+        } */
+        main p{
+                font-size: 1rem;
+        }
+}
+
+@media(max-width: 600px){
+        main{
+                margin: 2rem;   
+        }
+        main div h1{
+                font-size: 2.5rem;
+        }
+        form{
+                width: auto ;
+                margin: auto;
+                background-color: whitesmoke;
+                padding: auto;
+                border-radius: 8px;
+        }
+        /* main ul img{
+                width: 12rem;
+                height: 12rem;
+                object-fit: cover;
+        } */
+
+        /* .actions a{
+                font-size: 0.85rem;
+        } */
+
+        /* main h2{
+                font-size:1rem;
+        } */
+        main p{
+                font-size: 1rem;
+        }
+}
+
+/* @media(max-width: 530px){
+        main div h1{
+                font-size: 2.125rem;
+
+        }
+        
+        
+        main ul img{
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+        }
+
+        .actions a{
+                font-size: 0.75rem;
+        }
+
+        main h2{
+                font-size:0.751rem;
+        }
+        main p{
+                font-size: 1rem;
+        }
+} */
+
+@media(max-width: 480px){
+        main{
+                margin: 1rem;   
+        }
+        
+        label{
+                font-size: 1.5rem;
+        }
+        input, textarea{
+                width: 100%;
+                height: 2.525rem;
+                font-size: 1rem;
+        }
+        textarea{
+                height: 6.525rem;
+        }
+
+        /* main div h1{
+                font-size: 1.125rem;
+
+        }
+
+        main ul img{
+                display: none;
+        }
+
+        .actions a{
+                font-size: 1rem;
+        }
+
+        main h2{
+                font-size:0.658rem;
+        } */
+        /* main p{
+                font-size: 1rem;
+        } */
+        .menu-btn{
+                display: flex;       
+        }
+}

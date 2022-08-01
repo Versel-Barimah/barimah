@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+body{
+        margin: auto;
+        padding: 0;
+        font-family: 'Fredoka', sans-serif;
+}
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #412728; */
+        background-color: rgb(1, 12, 19);
+}
+header h1 a{
+        font-family: 'Rubik Glitch', sans-serif;
+}
+
+footer a, header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 1.25rem;
+}
+
+a:hover{
+        color: #ffffffd5;
+}
+
+header ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        margin:0.0625rem;
+        justify-content: space-between;
+}
+
+header ul a{
+        padding-left: 2.5rem;
+        width: 75;
+        font-weight: 300;
+}
+
+
+footer{
+        background-color: #010c13;
+}
+footer ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        padding: 0;
+        margin: top 0;
+        margin: bottom 0;
+}
+
+footer p{
+        color: #ffffff;
+        text-align: center;
+        padding: 0.625rem;
+        margin: top 0;
+        margin: bottom 0;
+        font-weight: 300;
+}
+
+footer img{
+        width: 3.125rem;
+        margin: top 1.25rem;;
+        background-color:  #ffffff;
+        border-radius: 1.5rem;
+}
+
+footer ul img:hover{
+        background-color: #ffffffd5;
+        border-width: 0.3125rem;
+}
+
+
+        
+main{
+        margin: 0px;
+        font-size: 1rem;
+        padding-left: 5rem;
+        color: #5e6468;
+        padding-top: 15.625rem;
+        padding-bottom: 18.75rem;
+}
+
+/* main h1{
+        font-family: 'Fredoka';
+        font-weight: 700;
+        font-size: 92px;
+} */
+
+main p{
+        padding-left: 0.625rem;
+        margin: 0;
+        font-weight: 300;
+        font-size: 2.875rem;
+}
+
+
+
+
+/* #barimah{
+        font-weight: 700;
+} */
+#welcome em{
+        font-family: 'Rubik Glitch';
+        font-size: 3.375rem;
+        border-radius: 24px;
+        background-color: #4A5C85;
+        box-shadow: 2px 4px 8px #333333c9;
+        padding: 1rem 2rem;
+}
+
+em:hover{
+        color: #e1e4ecc9;
+        background-color: #4A5C85;
+        box-shadow: 2px 4px 8px #333333c9;
+}
+
+main a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 700;
+
+}
+div p a{
+        font-weight: 300;
+}
+
+section ul{
+        list-style:none;
+}
+section ul li{
+        margin: 3px;
+        margin: bottom 0.3125rem;
+        padding: 16px;
+        color: #070625;
+        font-size: 1.25rem;
+}
+
+#projects a{
+        /* border: 2px solid; */
+        border-radius: 16px;
+        padding: 1rem 2rem;
+        /* border-color: #010c13; */
+        color: #ffffff;
+        background-color: #4A5C85;
+        box-shadow: 2px 4px 8px #333333c9;
+}
+
+#projects a:hover{
+        color: #e1e4ecc9;
+}
+main a:hover{
+        color: #e1e4ecc9;;
+}
+
+#academia{
+        margin: bottom 3.125rem;
+}
+#academia strong{
+        font-size: 3rem;
+        color: #070625;
+}
+
+#web, #dev, #media, #dancer{
+        border-left: 6px solid rgb(255, 255, 255);
+}
+
+#me{
+        padding-left: 2.5rem;
+}
+
+@media(max-width: 600px){
+        	main{
+                margin: 0px;
+                font-size: 1rem;
+                padding-left: 2rem;
+                color: #5e6468;
+                padding-top: 10.625rem;
+                padding-bottom: 15.75rem;
+                /* background-image: linear-gradient(to right top, #151515, #1619cc,#2a2f39, #010c13, #03131d); */
+                background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);
+        }
+
+        /* main h1{
+                font-family: 'Fredoka';
+                font-weight: 700;
+                font-size: 92px;
+        } */
+
+        main p{
+                padding-left: 0.25rem;
+                margin: 0;
+                font-weight: 300;
+                font-size: 1rem;
+        }
+
+        #academia strong{
+        font-size: 3rem;
+        color: #010c13;
+}
+
+
+        /* #barimah{
+                font-weight: 700;
+        } */
+        #welcome em{
+                font-family: 'Rubik Glitch';
+                font-size: 2.375rem;
+                border-radius: 16px;
+                background-color: #4A5C85;
+                padding: 0.5rem 1rem;
+        }
+
+        em:hover{
+                color: #e1e4ecc9;
+                background-color: #4A5C85;
+        }
+
+        main a{
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: 700;
+
+        }
+        div p a{
+                font-weight: 300;
+        }
+
+}
+
+@media(max-width: 400px){
+        	main{
+                margin: 0px;
+                font-size: 1rem;
+                padding-left: 1rem;
+                color: #5e6468;
+                padding-top: 5.625rem;
+                padding-bottom: 15.75rem;
+        }
+
+        /* main h1{
+                font-family: 'Fredoka';
+                font-weight: 700;
+                font-size: 92px;
+        } */
+
+        main p{
+                padding-left: 0.25rem;
+                margin: 0;
+                font-weight: 300;
+                font-size: 1rem;
+        }
+
+        #academia strong{
+        font-size: 2rem;
+        color: #010c13;
+        }
+
+
+        /* #barimah{
+                font-weight: 700;
+        } */
+        #welcome em{
+                font-family: 'Rubik Glitch';
+                font-size: 1.375rem;
+                border-radius: 12px;
+                background-color: #4A5C85;
+                padding: 0.5rem 1rem;
+        }
+
+        main a{
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: 700;
+
+        }
+        div p a{
+                font-weight: 300;
+        }
+        section ul li{
+                margin: 5px;
+                margin: bottom 0.1rem;
+                padding: 5px;
+                font-size: 1rem;
+        }
+}
