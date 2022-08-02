@@ -4,6 +4,8 @@ const fs = require('fs');
 
 const app = express();
 
+const port = 3000;
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -30,4 +32,8 @@ app.get('/contacts', function(req, res) {
 });
 
 
-app.listen(3000);
+app.listen(process.env.port ||
+        
+        port, function() {
+                console.log('Server started on port ' + port);
+        });
