@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400;100,700&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
 body{
         margin: auto;
-        padding: 0px;
+        padding: 0;
         height: auto;
-        background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);}
+        font-family: 'Fredoka', sans-serif;
+        background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+
+
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: #412728; */
+        background-color: rgb(1, 12, 19);
+        padding: 0 2rem;
+        height: 4rem;
+}
+
+header h1 a{
+        font-family: 'Rubik Glitch', sans-serif;
+}
+
+footer a, header a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 1.25rem;
+}
+
 
 
 .menu-btn{
