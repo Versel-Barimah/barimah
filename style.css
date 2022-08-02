@@ -235,7 +235,7 @@ main a:hover{
 }
 
 @media(max-width: 400px){
-        	main{
+        main{
                 margin: 0px;
                 font-size: 1rem;
                 padding-left: 1rem;

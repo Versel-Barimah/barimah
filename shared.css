@@ -13,7 +13,7 @@ header{
         align-items: center;
         /* background-color: #412728; */
         background-color: rgb(1, 12, 19);
-        padding: 0rem;
+        padding: 0 0.5rem;
         height: 4rem;
 }
 
@@ -65,7 +65,7 @@ footer a, header a{
         height: 4rem;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
+        align-items: right;
 }
 /* 
 header{
