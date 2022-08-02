@@ -15,7 +15,8 @@ div{
         padding: 1rem 3rem;
         background-color: whitesmoke;
         border-radius: 6px;
-        box-shadow: 2px 4px 8px #333333c9;;
+        box-shadow: 2px 4px 8px #333333c9;
+        height: 50%
 }
 
 main a{
