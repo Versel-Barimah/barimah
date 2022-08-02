@@ -3,8 +3,14 @@ main{
 }
 
 
-main div h1{
+main div h1, h3{
         font-size: 3.125rem;
+        text-align: center;
+        color: whitesmoke;
+}
+
+p{
+        font-size: 1.25rem;
         text-align: center;
         color: whitesmoke;
 }

@@ -143,16 +143,21 @@ header ul a{
 }
 
 
+
 footer{
         background-color: #010c13;
 }
-footer ul{
+
+footer ul, .social-media-icons ul{
         display: flex;
         list-style: none;
         justify-content: center;
         padding: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
+}
+.social-media-icons ul a{
+        margin: auto 30px;
 }
 
 footer p{
@@ -165,14 +170,14 @@ footer p{
         font-weight: 300;
 }
 
-footer img{
+footer img, .social-media-icons img{
         width: 50px;
         margin-top:20px;
         background-color:  #ffffff;
         border-radius: 24px;
 }
 
-footer ul img:hover{
+footer ul img:hover, .social-media-icons ul img:hover{
         background-color: #ffffffd5;
         border-width: 5px;
 }
