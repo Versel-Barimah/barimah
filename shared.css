@@ -65,12 +65,21 @@ footer a, header a{
 }
 
 #side-drawer header{        
-        height: 5.5rem;
+        height: 4rem;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding: 0;
 }
+/* 
+header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #412728; 
+        background-color: rgb(1, 12, 19);
+        height: 4rem;
+} */
+
 #side-drawer ul{
         list-style: none;
         display: flex;
