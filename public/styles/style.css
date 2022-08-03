@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:wght@300;400;800&display=swap');
 body{
         margin: auto;
         padding: 0;
@@ -15,11 +16,12 @@ header{
 }
 
 header h1 a{
-        font-family: 'Rubik Glitch', sans-serif;
+        font-family: 'Averia Serif Libre';
 }
 
 footer a, header a{
-        color: rgb(255, 255, 255);
+        /* color: #4A5C85; */
+        /* color: rgb(255, 255, 255); */
         text-decoration: none;
         margin: 1.25rem;
 }
@@ -107,7 +109,7 @@ main p{
         font-weight: 700;
 } */
 #welcome em{
-        font-family: 'Rubik Glitch';
+        font-family: 'Averia Serif Libre';
         font-size: 3.375rem;
         border-radius: 24px;
         background-color: #4A5C85;
@@ -127,6 +129,15 @@ main a{
         font-weight: 700;
 
 }
+
+.ug{
+        color: #4A5C85;
+}
+
+.ug:hover{
+        color: #8795b6;
+}
+
 div p a{
         font-weight: 300;
 }
@@ -153,7 +164,7 @@ section ul li{
 }
 
 #projects a:hover{
-        color: #e1e4ecc9;
+        color: #aeb5c5;
 }
 main a:hover{
         color: #e1e4ecc9;;
@@ -184,7 +195,7 @@ main a:hover{
                 padding-top: 10.625rem;
                 padding-bottom: 15.75rem;
                 /* background-image: linear-gradient(to right top, #151515, #1619cc,#2a2f39, #010c13, #03131d); */
-                background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);
+                /* background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd); */
         }
 
         /* main h1{
@@ -267,7 +278,7 @@ main a:hover{
                 font-weight: 700;
         } */
         #welcome em{
-                font-family: 'Rubik Glitch';
+                font-family: 'Averia Serif Libre';
                 font-size: 1.375rem;
                 border-radius: 12px;
                 background-color: #4A5C85;

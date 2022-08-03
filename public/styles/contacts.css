@@ -1,33 +1,40 @@
+
+
+header h1 a{
+        font-family: 'Averia Serif Libre';
+}
 main{
-        margin: 8rem;   
+        margin: 8rem;  
+        transition: 5s; 
 }
 
 
 main div h1, h3{
         font-size: 3.125rem;
         text-align: center;
-        color: whitesmoke;
+        color: #4A5C85;
 }
 
 p{
         font-size: 1.25rem;
         text-align: center;
-        color: whitesmoke;
+        color: #4A5C85;
 }
 
 form{
         width: 30rem;
         margin: 3rem auto;
-        background-color: whitesmoke;
+        background-color: #4A5C85;
         padding: 1rem;
         border-radius: 8px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.658);
 }
 
 label{
         margin-bottom: .5rem;
         display: block;
         font-size: 2rem;
-        color: #282bf1;
+        color: #e1ebff;
 }
 
 input, textarea{
@@ -36,7 +43,7 @@ input, textarea{
         margin-bottom: 1rem;
         box-sizing: border-box;
         font: inherit;
-        border: 1px solid rgb(102, 87, 240);
+        border: 1px solid #e1ebff;
         padding: 0.25rem;
         color: #5e6468;
         height: 3.125rem;
@@ -52,15 +59,15 @@ input:focus, textarea:focus{
         background-color: rgb(233, 232, 245);
         /* color: rgb(31, 53, 218); */
         border: 1px solid #4A5C85;
-
+        transition: 0.8s;
 }
 
 button{
         display: block;
         font: inherit;
         background-color:#4A5C85;
-        color: whitesmoke;
-        border: 1px solid rgb(17, 0, 255);
+        color: #e1ebff;
+        border: 1px solid #e1ebff;
         padding: 1rem 2rem;
         font-size: 1.125rem;
         border-radius: 12px;
@@ -69,7 +76,10 @@ button{
 }
 
 button:hover{
-        color: #ffffffd5;
+        /* color: #ffffffd5; */
+        color: #4A5C85;
+        background-color: #e1ebff;
+        transition: 0.8s;
 }
 
 .form-control-inline{

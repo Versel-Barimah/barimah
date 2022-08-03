@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400;100,700&family=Megrim&family=Roboto:wght@100;300;500&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300;100,300;100,400;100,700&family=Megrim&family=Roboto:wght@100;300;500&');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:wght@300;400;800&display=swap');
+
 body{
         margin: auto;
         padding: 0;
         height: auto;
         font-family: 'Fredoka', sans-serif;
         /* background-image: linear-gradient(to right top, #e1ebff, #cedefe, #bbd1fc, #a7c5fb, #93b8f9, #84aff9, #74a7f8, #639ef8, #5596fa, #468ffb, #3487fc, #1d7ffd); */
-        background-color: #E8F5FB;
+        background-color: #e1ebff;
         /* background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd); */
 }
 
@@ -20,10 +22,11 @@ header{
 }
 
 header h1 a{
-        font-family: 'Rubik Glitch', sans-serif;
+        font-family: 'Averia Serif Libre';
 }
 
 footer a, header a{
+        /* color: #4A5C85; */
         color: rgb(255, 255, 255);
         text-decoration: none;
         margin: 1.25rem;
@@ -53,13 +56,23 @@ footer a, header a{
 #side-drawer{
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);        position: fixed;
+        position: fixed;
+        /* background-color: rgba(0, 0, 0, 0.726); */
+        background-color: rgba(225, 235, 255, 0.445);
+        backdrop-filter: blur(10px);
+        /* background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd);        position: fixed; */
         top: 0;
-        left: 0;
+        right: 0;
         display: none;
 }
 
 #side-drawer:target{
+        transition-delay: 1s;
+        display: block;
+}
+
+#side-drawer:active{        
+        transition-delay: 1s;
         display: block;
 }
 
@@ -68,6 +81,7 @@ footer a, header a{
         display: flex;
         justify-content: flex-end;
         align-items: right;
+        transition: 1s;
 }
 /* 
 header{
@@ -93,14 +107,16 @@ header{
 }
 
 #side-drawer a{
-        color: white;
+        /* color: #ffffff; */
+        /* color: #4A5C85; */
+        color: #33446d;
         font-size: 2rem;
         font-family: 'Fredoka';
         text-decoration: none;
 }
 
 #side-drawer a:hover{
-        color: #ffffffd5;
+        color: #4A5C85;
         font-size: 2rem;
         font-family: 'Fredoka';
         text-decoration: none;

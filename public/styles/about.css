@@ -1,34 +1,45 @@
 
+header h1 a{
+        font-family: 'Averia Serif Libre';
+}
+
 h2{
         font-size: 4rem;
         text-align: center;
-        color: whitesmoke;
+        color: #4A5C85;
 }
 
-p{
-        color: #4A5C85;
+main p{
+        color: #e1ebff;
         font-size: 1.75rem;
         text-align: center;
+        justify-content: center;
 }
+
 div{
-        margin: 2rem;
-        padding: 1rem 3rem;
-        background-color: whitesmoke;
+        margin: 0 20%;
+        margin-bottom: 10%;
+        /* height: 20rem; */
+        padding: 8rem 5rem;
+        background-color: #4A5C85;
         border-radius: 6px;
         box-shadow: 2px 4px 8px #333333c9;
 }
 
 main a{
         /* padding: 2px 6px; */
-        text-decoration: underline;
+        text-decoration: none;
         /* border: 2px solid rgb(207, 207, 245); */
-        border-radius: 6px; 
-        color: #507bdd;
+        border-radius: 6px;
+        padding: 5px;
+        border: 2px solid #e1ebff; 
+        color: #e1ebff;
 }
 
 main a:hover, main a:active{
-        color: #1e5dee;
-        /* background-color: rgb(207, 207, 245); */
+        color: #4A5C85;
+        background-color: #e1ebff;
+        transition: 0.8s;
 }
 
 
@@ -38,7 +49,7 @@ main a:hover, main a:active{
         h2{
                 font-size: 3rem;
                 text-align: center;
-                color: whitesmoke;
+                color: #4A5C85;
         }
 
         p{
@@ -48,18 +59,27 @@ main a:hover, main a:active{
         }
         div{
                 margin: 7rem;
-                padding: 1.5rem 6rem;
-                background-color: whitesmoke;
+                padding: 2rem 3rem;
+                background-color: #4A5C85;
                 border-radius: 6px;
         }
-
+ 
         main a{
                 /* padding: 2px 6px; */
-                text-decoration: underline;
+                text-decoration: none;
                 /* border: 2px solid rgb(207, 207, 245); */
-                border-radius: 6px; 
-                color: #507bdd;
+                border-radius: 6px;
+                padding: 5px;
+                border: 2px solid #e1ebff; 
+                color: #e1ebff;
         }
+        
+        main a:hover, main a:active{
+                color: #4A5C85;
+                background-color: #e1ebff;
+                transition: 0.8s;
+        }
+        
 
 }
 
@@ -68,7 +88,7 @@ main a:hover, main a:active{
         h2{
                 font-size: 2rem;
                 text-align: center;
-                color: whitesmoke;
+                color: #4A5C85;
         }
 
         p{
@@ -76,34 +96,32 @@ main a:hover, main a:active{
                 font-size: 0.75rem;
                 text-align: center;
         }
+        
         div{
-                margin: 6rem;
-                padding: 2rem 5rem;
-                background-color: whitesmoke;
+                margin: 0 20%;
+                margin-bottom: 10%;
+                height: 20rem;
+                padding: 8rem 5rem;
+                background-color: #4A5C85;
                 border-radius: 6px;
+                box-shadow: 2px 4px 8px #333333c9;
         }
 
         main a{
                 /* padding: 2px 6px; */
-                text-decoration: underline;
+                text-decoration: none;
                 /* border: 2px solid rgb(207, 207, 245); */
-                border-radius: 6px; 
-                color: #507bdd;
+                border-radius: 6px;
+                padding: 5px;
+                border: 2px solid #e1ebff; 
+                color: #e1ebff;
         }
-
-        /* main ul img{
-                width: 12rem;
-                height: 12rem;
-                object-fit: cover;
-        } */
-
-        /* .actions a{
-                font-size: 0.85rem;
-        } */
-
-        /* main h2{
-                font-size:1rem;
-        } */
+        
+        main a:hover, main a:active{
+                color: #4A5C85;
+                background-color: #e1ebff;
+                transition: 0.8s;
+        }
 }
 
 @media(max-width: 600px){
@@ -111,14 +129,22 @@ main a:hover, main a:active{
         h2{
                 font-size: 3rem;
                 text-align: center;
-                color: whitesmoke;
+                color: #4A5C85;
         }
 
-        div{
+        /* div{
                 margin: 0rem;
-                padding: 2rem;
-                background-color: whitesmoke;
+                padding: 3rem 2rem;
+                background-color: #4A5C85;
+        } */
+        div{
+                margin: 0 20%;
+                margin-bottom: 10%;
+                height: 20rem; 
+                padding: 8rem 5rem;
+                background-color: #4A5C85;
                 border-radius: 6px;
+                box-shadow: 2px 4px 8px #333333c9;
         }
 
         p{
@@ -129,11 +155,20 @@ main a:hover, main a:active{
 
         main a{
                 /* padding: 2px 6px; */
-                text-decoration: underline;
+                text-decoration: none;
                 /* border: 2px solid rgb(207, 207, 245); */
-                border-radius: 6px; 
-                color: #507bdd;
+                border-radius: 6px;
+                padding: 5px;
+                border: 2px solid #e1ebff; 
+                color: #e1ebff;
         }
+        
+        main a:hover, main a:active{
+                color: #4A5C85;
+                background-color: #e1ebff;
+                transition: 0.8s;
+        }
+        
 
 }
 
@@ -167,14 +202,24 @@ main a:hover, main a:active{
         h2{
                 font-size: 2rem;
                 text-align: center;
-                color: whitesmoke;
+                color: #4A5C85;
         }
 
         div{
                 margin: 1rem ;
                 padding: 2rem;
-                background-color: whitesmoke;
+                background-color: #4A5C85;
                 border-radius: 6px;
+        }
+
+        div{
+                margin: 10% 20%;
+                margin-bottom: 10%;
+                /* height: 20rem; */
+                padding: 8rem 5rem;
+                background-color: #4A5C85;
+                border-radius: 6px;
+                box-shadow: 2px 4px 8px #333333c9;
         }
 
         p{
@@ -183,13 +228,14 @@ main a:hover, main a:active{
                 text-align: center;
         }
 
-        main a{
+        /* main a{
                 /* padding: 2px 6px; */
-                text-decoration: underline;
-                /* border: 2px solid rgb(207, 207, 245); */
+                /* text-decoration: underline; */
+                /* border: 2px solid rgb(207, 207, 245); 
                 border-radius: 6px; 
                 color: #507bdd;
-        }
+        } */
+
 
 
         /* main div h1{
