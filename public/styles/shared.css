@@ -4,7 +4,8 @@ body{
         padding: 0;
         height: auto;
         font-family: 'Fredoka', sans-serif;
-        background-image: linear-gradient(to right top, #e1ebff, #cedefe, #bbd1fc, #a7c5fb, #93b8f9, #84aff9, #74a7f8, #639ef8, #5596fa, #468ffb, #3487fc, #1d7ffd);
+        /* background-image: linear-gradient(to right top, #e1ebff, #cedefe, #bbd1fc, #a7c5fb, #93b8f9, #84aff9, #74a7f8, #639ef8, #5596fa, #468ffb, #3487fc, #1d7ffd); */
+        background-color: #E8F5FB;
         /* background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd); */
 }
 
