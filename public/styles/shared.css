@@ -10,16 +10,17 @@ body{
         background-color: #e1ebff;
         /* background-image: linear-gradient(to right top, #4a5c85, #526691, #59719d, #617baa, #6986b6, #6789c0, #658dcb, #6390d5, #558ce0, #4688ea, #3484f4, #1d7ffd); */
 }
-
+/* 
 header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* background-color: #412728; */
+        background-color: #412728;
         background-color: rgb(1, 12, 19);
+        backdrop-filter: blur(10px);
         padding: 0 0.5rem;
         height: 4rem;
-}
+} */
 
 header h1 a{
         font-family: 'Averia Serif Libre';
@@ -31,8 +32,6 @@ footer a, header a{
         text-decoration: none;
         margin: 1.25rem;
 }
-
-
 
 .menu-btn{
         width: 2rem;
@@ -83,15 +82,6 @@ footer a, header a{
         align-items: right;
         transition: 1s;
 }
-/* 
-header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #412728; 
-        background-color: rgb(1, 12, 19);
-        height: 4rem;
-} */
 
 #side-drawer ul{
         list-style: none;
@@ -163,6 +153,7 @@ header ul a{
 
 footer{
         background-color: #010c13;
+        /* background-color: #b0b1b3; */
 }
 
 footer ul, .social-media-icons ul{
